@@ -14,10 +14,12 @@ cryptographic challenge analysis.
 ```text
 .
 ├── HW1/
+│   ├── HW1-questions.pdf
 │   ├── exploits/      # C and Python exploit code for binary exploitation tasks
 │   ├── scripts/       # QEMU helper scripts
 │   └── report/        # HW1 theory/report PDF
 ├── HW2/
+│   ├── HW2-questions.pdf
 │   ├── web-security/  # XSS, CSRF, timing, websocket, and challenge exploits
 │   └── reports/       # HW2 report PDF
 └── docs/              # Original HW1/HW2 assignment PDFs
@@ -38,6 +40,7 @@ programs. The included exploit files demonstrate:
 
 Relevant files:
 
+- `HW1/HW1-questions.pdf`
 - `HW1/exploits/xploit1.c` through `xploit5.c`
 - `HW1/exploits/exploit2.py`
 - `HW1/exploits/shellcode.h`
@@ -59,6 +62,7 @@ included deliverables cover:
 
 Relevant files:
 
+- `HW2/HW2-questions.pdf`
 - `HW2/web-security/a.txt`
 - `HW2/web-security/b.html`
 - `HW2/web-security/g.txt`

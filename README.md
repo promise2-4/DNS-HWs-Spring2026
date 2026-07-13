@@ -1,9 +1,9 @@
 # Data and Network Security Homework Archive
 
 Course homework archive for **Data and Network Security, Spring 2026**. This
-repository contains the selected implementation and write-up files for HW1 and
-HW2, focused on binary exploitation, web security, side-channel attacks, and
-cryptographic challenge analysis.
+repository contains selected HW1 and HW2 code and assignment questions, focused
+on binary exploitation, web security, side-channel attacks, and cryptographic
+challenge analysis.
 
 > Repository description: Data and Network Security homework solutions covering
 > binary exploitation, web attacks, side-channel analysis, and cryptographic
@@ -16,12 +16,10 @@ cryptographic challenge analysis.
 ├── HW1/
 │   ├── HW1-questions.pdf
 │   ├── exploits/      # C and Python exploit code for binary exploitation tasks
-│   ├── scripts/       # QEMU helper scripts
-│   └── report/        # HW1 theory/report PDF
+│   └── scripts/       # QEMU helper scripts
 ├── HW2/
 │   ├── HW2-questions.pdf
-│   ├── web-security/  # XSS, CSRF, timing, websocket, and challenge exploits
-│   └── reports/       # HW2 report PDF
+│   └── web-security/  # XSS, CSRF, timing, websocket, and challenge exploits
 └── docs/              # Original HW1/HW2 assignment PDFs
 ```
 
